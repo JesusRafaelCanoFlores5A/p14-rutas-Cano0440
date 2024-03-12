@@ -3,7 +3,7 @@ import 'package:cano0440/pantalla2_0440.dart';
 import 'package:cano0440/pantalla1_0440.dart';
 import 'package:cano0440/pantallainicio_0440.dart';
 
-void main() => runApp(MiApp0440());
+void main() => runApp(const MiApp0440());
 
 class MiApp0440 extends StatelessWidget {
   const MiApp0440({Key? key}) : super(key: key);
@@ -14,9 +14,9 @@ class MiApp0440 extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: "/",
       routes: {
-        "/": (context) => Pantallainicio_0440(),
-        "/pantalla1_0440": (context) => Pantalla1_0440(),
-        "/pantalla2_0440": (context) => Pantalla2_0440(),
+        "/": (context) => const Pantallainicio_0440(),
+        "/pantalla1_0440": (context) => const Pantalla1_0440(),
+        "/pantalla2_0440": (context) => const Pantalla2_0440(),
       }, //Fin ruta páginas
     ); //Fin de MAterial
   } //Fin Widget

@@ -9,7 +9,7 @@ class Pantallainicio_0440 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Página incial Cano 0440"),
+        title: const Text("Página incial Cano 0440"),
         backgroundColor: Colors.blueGrey,
       ),
       body: Center(
@@ -20,12 +20,12 @@ class Pantallainicio_0440 extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, "/pantalla1_0440");
               }, //Fin onpressed
-              child: Text("Mover a pantalla1")),
+              child: const Text("Ejemplo Card")),
           ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, "/pantalla2_0440");
               }, //Fin onpressed
-              child: Text("Mover a pantalla2")),
+              child: const Text("Ejemplo Card Container")),
         ], //Fin de niños
       )),
     ); //Fin Scaffold
